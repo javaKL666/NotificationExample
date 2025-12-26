@@ -1,5 +1,9 @@
 local NotifiCationLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMinisterq/Notification-Library/Main/Library.lua"))()
 
-NotifiCationLibrary:SendNotification("Success", "Example Success", 5)
+NotificationLibrary:SendNotification("Success", "Example Success", 3)
 
-NotifiCationLibrary:SendNotification("Error", "Example Error", 5)
+NotificationLibrary:SendNotification("Warning", "Example Warning", 3)
+
+NotificationLibrary:SendNotification("Error", "Example Error", 3)
+
+NotificationLibrary:SendNotification("Info", "Example Info", 3)
